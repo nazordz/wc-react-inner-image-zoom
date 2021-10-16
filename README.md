@@ -26,9 +26,9 @@ vue()
 ```js
 vue({
     template: {
-    compilerOptions: {
-        isCustomElement: tag => tag.startsWith('wc-')
-    }
+        compilerOptions: {
+            isCustomElement: tag => tag.startsWith('wc-')
+        }
     }
 })
 ```
